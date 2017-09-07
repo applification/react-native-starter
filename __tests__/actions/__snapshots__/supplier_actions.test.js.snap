@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SUPPLIER ACTIONS creates a FETCH_SUPPLIERS_FAILURE action 1`] = `
+Object {
+  "payload": Object {
+    "error": "Could not get suppliers",
+    "loading": false,
+  },
+  "type": "fetch_suppliers_failure",
+}
+`;
+
+exports[`SUPPLIER ACTIONS creates a FETCH_SUPPLIERS_REQUEST action 1`] = `
+Object {
+  "payload": Object {
+    "loading": true,
+  },
+  "type": "fetch_supplier_request",
+}
+`;
+
+exports[`SUPPLIER ACTIONS creates a FETCH_SUPPLIERS_SUCCESS action 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "cell": "(737)-135-2392",
+      "dob": "1974-09-20 09:28:59",
+      "email": "mason.walker@example.com",
+      "gender": "male",
+      "id": Object {
+        "name": "",
+        "value": null,
+      },
+      "location": Object {
+        "city": "upper hutt",
+        "postcode": 49293,
+        "state": "west coast",
+        "street": "9366 bairds road",
+      },
+      "login": Object {
+        "md5": "6167a2c479522db9f7befcc832e7ace8",
+        "password": "lowell",
+        "salt": "I1x0ZEtp",
+        "sha1": "94e8cc37ceaaba2450cb97fe3e1f52d3b1ea5ab2",
+        "sha256": "dbbebda09b08fb5d79073c637a799066c3f0b9dd7c09ac59f6189483fd6b6214",
+        "username": "whitemouse414",
+      },
+      "name": Object {
+        "first": "mason",
+        "last": "walker",
+        "title": "mr",
+      },
+      "nat": "NZ",
+      "phone": "(907)-186-0638",
+      "picture": Object {
+        "large": "https://randomuser.me/api/portraits/men/84.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/84.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/84.jpg",
+      },
+      "registered": "2007-02-24 02:51:20",
+    },
+    Object {
+      "cell": "0174-2830682",
+      "dob": "1986-01-16 08:45:01",
+      "email": "michael.schäfer@example.com",
+      "gender": "male",
+      "id": Object {
+        "name": "",
+        "value": null,
+      },
+      "location": Object {
+        "city": "barnim",
+        "postcode": 37287,
+        "state": "hamburg",
+        "street": "2028 rosenweg",
+      },
+      "login": Object {
+        "md5": "5eb423d19a17a60cc66b47ae32687622",
+        "password": "iverson",
+        "salt": "zymS0vqz",
+        "sha1": "249202fb021424027c21118d6d6a630b8e88fbbe",
+        "sha256": "db2cffb9d1703072d656d4b50e26e15561aa26e9044f4ea399abe6927f771987",
+        "username": "ticklishpeacock507",
+      },
+      "name": Object {
+        "first": "michael",
+        "last": "schäfer",
+        "title": "mr",
+      },
+      "nat": "DE",
+      "phone": "0996-0349818",
+      "picture": Object {
+        "large": "https://randomuser.me/api/portraits/men/7.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/7.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/7.jpg",
+      },
+      "registered": "2005-10-25 14:03:49",
+    },
+    Object {
+      "cell": "636-312-719",
+      "dob": "1949-10-28 06:33:11",
+      "email": "vicenta.bravo@example.com",
+      "gender": "female",
+      "id": Object {
+        "name": "DNI",
+        "value": "31233557-S",
+      },
+      "location": Object {
+        "city": "madrid",
+        "postcode": 25547,
+        "state": "extremadura",
+        "street": "5402 avenida de salamanca",
+      },
+      "login": Object {
+        "md5": "e36b5e287bcf046c07af74062056c11c",
+        "password": "meredith",
+        "salt": "Q3Fkc1T6",
+        "sha1": "00f9d50026699a2c5f41e12aa5ee8388002f6fa5",
+        "sha256": "26514be60c509221e04505e93ce6c659c1a1ba14173f4ef146f92645dde3cd70",
+        "username": "whiteswan822",
+      },
+      "name": Object {
+        "first": "vicenta",
+        "last": "bravo",
+        "title": "miss",
+      },
+      "nat": "ES",
+      "phone": "961-171-169",
+      "picture": Object {
+        "large": "https://randomuser.me/api/portraits/women/60.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/60.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/60.jpg",
+      },
+      "registered": "2004-10-28 03:49:49",
+    },
+    Object {
+      "cell": "(42) 6492-0196",
+      "dob": "1982-09-01 23:28:16",
+      "email": "firmina.dasneves@example.com",
+      "gender": "female",
+      "id": Object {
+        "name": "",
+        "value": null,
+      },
+      "location": Object {
+        "city": "cotia",
+        "postcode": 10784,
+        "state": "pará",
+        "street": "9067 rua sete de setembro ",
+      },
+      "login": Object {
+        "md5": "5e93cbe3ff24acb42e0fd61994990b65",
+        "password": "girsl",
+        "salt": "I6TsmPGY",
+        "sha1": "b3d8472a8c8eedc7b2cdc0903a3229613031e30f",
+        "sha256": "9866b4655192f1486061ddbc59d8c666f977bb3f8618311ab15c095396e5c027",
+        "username": "lazygorilla554",
+      },
+      "name": Object {
+        "first": "firmina",
+        "last": "das neves",
+        "title": "ms",
+      },
+      "nat": "BR",
+      "phone": "(82) 4806-1818",
+      "picture": Object {
+        "large": "https://randomuser.me/api/portraits/women/82.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/82.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/82.jpg",
+      },
+      "registered": "2012-08-19 00:56:06",
+    },
+    Object {
+      "cell": "661-745-854",
+      "dob": "1971-04-05 08:52:57",
+      "email": "manuel.roman@example.com",
+      "gender": "male",
+      "id": Object {
+        "name": "DNI",
+        "value": "74519788-C",
+      },
+      "location": Object {
+        "city": "ferrol",
+        "postcode": 84546,
+        "state": "castilla y león",
+        "street": "4303 calle nebrija",
+      },
+      "login": Object {
+        "md5": "1211a1525a96147c7bd5522cfceeac96",
+        "password": "blue99",
+        "salt": "umSFV3Xr",
+        "sha1": "a35ee5472e8fa8c74a1b315a245a9f8b9859355e",
+        "sha256": "1e01e39ab970a95435f65fc5f3ab061c28468f9f073e4363d46f54f75df4910a",
+        "username": "tinymouse304",
+      },
+      "name": Object {
+        "first": "manuel",
+        "last": "roman",
+        "title": "mr",
+      },
+      "nat": "ES",
+      "phone": "991-640-367",
+      "picture": Object {
+        "large": "https://randomuser.me/api/portraits/men/30.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/30.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/30.jpg",
+      },
+      "registered": "2015-07-21 08:19:51",
+    },
+  ],
+  "loading": false,
+}
+`;

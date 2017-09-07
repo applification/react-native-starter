@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handles action of type "CHANGE_CONNECTION_STATUS" offline 1`] = `
+Object {
+  "isConnected": false,
+}
+`;
+
+exports[`handles action of type "CHANGE_CONNECTION_STATUS" online 1`] = `
+Object {
+  "isConnected": true,
+}
+`;
+
+exports[`should return an initial state 1`] = `
+Object {
+  "isConnected": "unknown",
+}
+`;
